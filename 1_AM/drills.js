@@ -19,12 +19,13 @@ const reverse = str => {
 
 const uniqueOnes = arr => {
   // TODO - write a function which returns the inputted array without duplicate elements
-  //  arr=[]
   return arr 
 };
 
 const factorial = num => {
   // TODO - write a function which returns the factorial of a positive integer
+  // if (num==0 || num == 1)
+  
 };
 
 const zip = (arr1, arr2) => {
@@ -55,4 +56,5 @@ assert([2, 3][0] === 2);
 console.log(tokenize("hello kitty"))
 console.log(reverse("hello kitty"))
 console.log(uniqueOnes(["strawberry","chocolate","banana","vanilla"]))
+console.log(factorial(5))
 // asssert (reverse("3df") === "fd3")
