@@ -4,14 +4,23 @@ const assert = require("assert");
 
 const tokenize = str => {
   // TODO - write a function which converts a multi-word string into an array of words
+  const splitString = str.split()
+  return splitString
 };
 
 const reverse = str => {
   // TODO - write a function which reverses the string
+  const splitString2 = str.split("")
+  const reverseArray = splitString2.reverse()
+  const joinArray = reverseArray.join("")
+  // return str.split("").reverse().join("")
+  return joinArray
 };
 
 const uniqueOnes = arr => {
   // TODO - write a function which returns the inputted array without duplicate elements
+  //  arr=[]
+  return arr 
 };
 
 const factorial = num => {
@@ -43,4 +52,7 @@ const announceDate = () => {
 assert(1 < 2);
 assert(1 + 2 === 3);
 assert([2, 3][0] === 2);
+console.log(tokenize("hello kitty"))
+console.log(reverse("hello kitty"))
+console.log(uniqueOnes(["strawberry","chocolate","banana","vanilla"]))
 // asssert (reverse("3df") === "fd3")
